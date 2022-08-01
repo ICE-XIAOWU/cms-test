@@ -13,7 +13,7 @@ let BASE_URL = ''
 const TIME_OUT = 2000
 
 if (process.env.NODE_ENV === 'development') {
-  BASE_URL = 'http://127.0.0.1:9000/web'
+  BASE_URL = 'http://localhost:9000'
 } else if (process.env.NODE_ENV === 'production') {
   BASE_URL = 'http://152.136.185.210:5000'
 } else {

@@ -1,4 +1,10 @@
-export interface IRootState {
+export interface IUserList {
+  id: number
   name: string
-  password: string
+  avatar: string
+}
+
+export interface IRootState {
+  userList: IUserList[]
+  total: number
 }

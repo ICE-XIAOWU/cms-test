@@ -1,4 +1,5 @@
 export interface IDateType<T = any> {
-  code: number
+  total: number
   data: T
+  code?: number
 }

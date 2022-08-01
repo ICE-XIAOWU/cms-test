@@ -5,8 +5,7 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint",
-    "p": "prettier --write ."
+    "lint": "vue-cli-service lint"
   },
   "dependencies": {
     "@element-plus/icons-vue": "^2.0.6",
